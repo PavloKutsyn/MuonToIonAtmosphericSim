@@ -1,0 +1,42 @@
+##### CRY SETUPS #####
+/CRY/input returnNeutrons 0
+/CRY/input returnProtons 0
+/CRY/input returnGammas 0
+/CRY/input returnPions 0
+/CRY/input returnMuons 1
+/CRY/input returnElectrons 0
+/CRY/input returnKaons 0
+/CRY/input date 1-24-2017
+/CRY/input latitude 59.24
+/CRY/input altitude 0
+/CRY/input subboxLength 0.035
+/CRY/update
+##### Visualization SETUPS #####
+/vis/drawVolume
+/vis/open OGL 600x600-0+0
+/vis/viewer/set/autoRefresh false
+/vis/ogl/set/displayListLimit 5000000
+/vis/verbose errors
+/vis/viewer/zoom 1.4
+/vis/viewer/set/hiddenEdge 1
+/vis/viewer/set/rotationStyle freeRotation
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 1
+
+/vis/geometry/set/visibility World 0 false
+/vis/geometry/set/colour World 1 1 1 0.1
+
+/vis/geometry/set/visibility Atmosphere 1 true
+/vis/geometry/set/colour Atmosphere 0 0 1
+
+/vis/viewer/set/style surface
+/vis/scene/endOfEventAction accumulate 500000
+/vis/ogl/set/displayListLimit 1000000
+/vis/viewer/set/autoRefresh true
+/vis/verbose warnings
+/vis/scene/add/axes 0 0 0 0.3 m
+
+###### NUMBER OF EVENTS ######
+/run/beamOn 3

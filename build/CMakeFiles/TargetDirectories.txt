@@ -1,0 +1,7 @@
+/home/pavlo/Worc_space/MuonToIonAtmosphericSim/build/CMakeFiles/execute.dir
+/home/pavlo/Worc_space/MuonToIonAtmosphericSim/build/CMakeFiles/edit_cache.dir
+/home/pavlo/Worc_space/MuonToIonAtmosphericSim/build/CMakeFiles/rebuild_cache.dir
+/home/pavlo/Worc_space/MuonToIonAtmosphericSim/build/CMakeFiles/list_install_components.dir
+/home/pavlo/Worc_space/MuonToIonAtmosphericSim/build/CMakeFiles/install.dir
+/home/pavlo/Worc_space/MuonToIonAtmosphericSim/build/CMakeFiles/install/local.dir
+/home/pavlo/Worc_space/MuonToIonAtmosphericSim/build/CMakeFiles/install/strip.dir
